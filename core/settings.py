@@ -29,7 +29,7 @@ SECRET_KEY = '=5!%)x5sb969tjinw@owstukfubvb_h6f^+(sr)!=kb-w=(8tm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["classifierssss.herokuapp.com"]
 
 
 # Application definition
