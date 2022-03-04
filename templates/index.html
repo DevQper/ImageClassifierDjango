@@ -1,0 +1,13 @@
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="imageFile" />
+    <input type="submit" name="submit" value="Upload" />
+</form>
+
+<h1> This is a(n)
+{{predictions.0.0.1}}
+</h1>
+
+<h5> path is: {{image}} </h5>
+
+<img src="{{image}}">
